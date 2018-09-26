@@ -1,6 +1,28 @@
+:root {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
 .colorBox {
     width: 600px;
     height: 600px;
     background-color: red;
+    margin: 50px auto;
+}
+
+#bContainer {
+    width: 90%;
     margin: auto;
+}
+
+button {
+    padding: 10px;
+    width: 33%;
+    border: solid 2px lightblue;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: blue;
 }
