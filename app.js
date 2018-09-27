@@ -1,5 +1,4 @@
 window.onload = function () {
-    var f;
     var colors = ['red', 'blue', 'pink', 'orange', 'purple', 'white', 'black', 'gray', 'violet'];
     var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     var letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -11,12 +10,11 @@ window.onload = function () {
     document.getElementById("letter").addEventListener('click', theFunctions[2]);
     
     
-    var counter = 0;
     
     function changeColor(e) {
         var target = document.getElementById("box");
-        target.style.background = colors[0];
-        var counter = 1;
+        var counter = 0;
+        target.style.background = colors[counter++];
         target.innerHTML = "";
         document.getElementById("box").addEventListener('click', change);
         
@@ -29,6 +27,8 @@ window.onload = function () {
         }
         
     }
+    
+    
     
     function changeNumber(e) {
         var target = document.getElementById("box");
@@ -51,6 +51,8 @@ window.onload = function () {
         }
         
     }
+    
+    
     
     function changeLetter() {
         var target = document.getElementById("box");
