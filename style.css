@@ -6,6 +6,10 @@
     box-sizing: inherit;
 }
 
+body {
+    background-color: #dddddd;
+}
+
 .colorBox {
     width: 30vw;
     height: 30vw;
@@ -25,11 +29,11 @@ button {
     display: block;
     width: 50%;
     margin: 1rem auto;
-    border: solid 2px lightblue;
+    border: solid 2px blue;
     border-radius: 1rem;
     font-size: 1.2rem;
     color: blue;
-    background-color: white;
+    background-color: inherit;
 }
 
 @media(max-width: 1200px) {

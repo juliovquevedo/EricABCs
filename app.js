@@ -32,14 +32,14 @@ window.onload = function () {
     
     function changeNumber(e) {
         var target = document.getElementById("box");
-        target.style.background = 'white';
+        target.style.background = 'inherit';
         target.style.textAlign = 'center';
         var counter = 0;
         target.innerHTML = numbers[counter++];
         document.getElementById("box").addEventListener('click', change2);
         
         function change2(e) {
-            target.style.background = 'white';
+            target.style.background = 'inherit';
             target.style.textAlign = 'center';
             target.innerHTML = numbers[counter];
             counter++;
@@ -54,14 +54,14 @@ window.onload = function () {
     
     function changeLetter() {
         var target = document.getElementById("box");
-        target.style.background = 'white';
+        target.style.background = 'inherit';
         target.style.textAlign = 'center';
         var counter = 0;
         target.innerHTML = letters[counter++];
         document.getElementById("box").addEventListener('click', change3);
         
         function change3(e) {
-            target.style.background = 'white';
+            target.style.background = 'inherit';
             target.style.textAlign = 'center';
             target.innerHTML = letters[counter];
             counter++;
