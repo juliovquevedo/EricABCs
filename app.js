@@ -33,7 +33,7 @@ window.onload = function () {
     function changeNumber(e) {
         var target = document.getElementById("box");
         target.style.background = 'white';
-        target.style.fontSize = '500px';
+//        target.style.fontSize = '40rem';
         target.style.textAlign = 'center';
         var counter = 0;
         target.innerHTML = numbers[counter++];
@@ -41,7 +41,7 @@ window.onload = function () {
         
         function change2(e) {
             target.style.background = 'white';
-            target.style.fontSize = '500px';
+//            target.style.fontSize = '40rem';
             target.style.textAlign = 'center';
             target.innerHTML = numbers[counter];
             counter++;
@@ -57,7 +57,7 @@ window.onload = function () {
     function changeLetter() {
         var target = document.getElementById("box");
         target.style.background = 'white';
-        target.style.fontSize = '500px';
+//        target.style.fontSize = '40vw';
         target.style.textAlign = 'center';
         var counter = 0;
         target.innerHTML = letters[counter++];
@@ -65,7 +65,7 @@ window.onload = function () {
         
         function change3(e) {
             target.style.background = 'white';
-            target.style.fontSize = '500px';
+//            target.style.fontSize = '40vw';
             target.style.textAlign = 'center';
             target.innerHTML = letters[counter];
             counter++;
