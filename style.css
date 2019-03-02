@@ -10,7 +10,7 @@
     width: 30vw;
     height: 30vw;
     background-color: red;
-    font-size: 40vw;
+    font-size: 35vw;
     margin: 50px auto;
     border-radius: 1rem;
 }
@@ -36,6 +36,7 @@ button {
     .colorBox {
         width: 40vw;
         height: 40vw;
+        font-size: 45vw;
     }
 }
 
