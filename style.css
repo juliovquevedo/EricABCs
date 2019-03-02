@@ -24,7 +24,7 @@
 }
 
 button {
-/*    padding: 10px 0;*/
+    padding: 10px 0;
     width: 33%;
     border: solid 2px lightblue;
     border-radius: 1rem;
@@ -32,3 +32,26 @@ button {
     color: blue;
     background-color: white;
 }
+
+@media(max-width: 1200px) {
+    .colorBox {
+        width: 60vw;
+        height: 60vw;
+    }
+}
+
+
+@media(max-width: 900px) {
+    .colorBox {
+        width: 70vw;
+        height: 70vw;
+    }
+}
+
+@media(max-width: 600px) {
+    .colorBox {
+        width: 90vw;
+        height: 90vw;
+    }
+}
+
