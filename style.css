@@ -14,9 +14,10 @@ body {
     width: 30vw;
     height: 30vw;
     background-color: red;
-    font-size: 35vw;
+    font-size: 30vw;
     margin: 50px auto;
     border-radius: 1rem;
+/*    padding: 0 0 5rem 0;*/
 }
 
 #bContainer {
@@ -40,7 +41,7 @@ button {
     .colorBox {
         width: 40vw;
         height: 40vw;
-        font-size: 45vw;
+        font-size: 40vw;
     }
 }
 
